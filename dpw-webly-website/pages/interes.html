@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Interés</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../styles/diseñoGeneral.css" type="text/css">
+    <link rel="icon" href="../multimedia/img/favicon.ico" type="image/x-icon" alt="Icono del logo Webly">
+</head>
+<body>
+
+<!-- Encabezado con botón de cerrar y título -->
+<div class="container" style="margin-bottom: 2%; margin-top: 3%; background-color: white; padding: 4px; border-radius: 5px;">
+    <div class="row align-items-center">
+        <div class="col-md-1 text-start">
+            <a href="/pages/planes.html">
+                <button type="button" class="btn-close" aria-label="Close"></button>
+            </a>
+        </div>
+        <div class="col-md-10 text-center">
+            <h1 class="title">Formulario de Interés</h1>
+        </div>
+    </div>
+</div>
+
+<!-- Formulario de interés -->
+<div class="container" style="margin-bottom: 2%; padding: 2%;">
+    <div class="row">
+        <div class="col-md-1"></div>
+
+        <div class="col-md-10">
+            <div style="background-color: white; padding: 30px; border-radius: 10px;">
+
+                <form method="post">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre completo:</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ej. Ana Martínez" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo electrónico:</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Ej. usuario@dominio.com" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">Teléfono:</label>
+                        <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Ej. 7766-3322" pattern="[267]{1}[0-9]{3}-[0-9]{4}" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="interes" class="form-label">¿Qué servicio te interesa?</label>
+                        <select id="interes" name="interes" class="form-select" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="web">Sitio Web Personal o Corporativo</option>
+                            <option value="tienda">Tienda en Línea</option>
+                            <option value="mantenimiento">Mantenimiento Mensual</option>
+                            <option value="asesoria">Asesoría en presencia digital</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="comentario" class="form-label">Comentarios o detalles adicionales:</label>
+                        <textarea id="comentario" name="comentario" class="form-control" rows="4" placeholder="Cuéntanos qué necesitas..."></textarea>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="condiciones" required>
+                        <label class="form-check-label" for="condiciones">Acepto los términos y condiciones</label>
+                        <div class="form-text">Nos comprometemos a no compartir tu información con terceros.</div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar Interés</button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="col-md-1"></div>
+    </div>
+</div>
+
+<div class="container" style="margin: auto; padding: auto;"> <!--Contenedor del footer-->
+        <div class="row">
+            <div class="col-md-12" style="margin: 2%; padding: 2%;">
+
+               <!-- Footer -->
+                <footer class="bg-body-tertiary text-dark custom-footer">
+                    <div class="container p-4"> <!--apertura del container-->
+                        <div class="row"> <!-- apertura del row b1-->
+
+                       <!-- Parte izquierda: Logo + Nombre + Slogan -->
+                            <div class="col-md-3 d-flex flex-column align-items-center justify-content-center text-center mb-4 mb-md-0">
+                                <!-- LOGO -->
+                                <img src="../multimedia/img/logoWeblyOficial.png" alt="Logo Webly" style="height: 100px; width: auto; display: block; margin-bottom: 0px; padding: 0;">
+                                <!-- SLOGAN -->
+                                <img src="../multimedia/img/sloganWebly.jpg" alt="Slogan de Webly" style="height: 50px; width: 70%; display: block; margin-top: 3px; padding: 0;">
+                            </div>
+
+                    <!-- Parte derecha: Comentarios y redes -->
+                    <div class="col-md-9">
+                        <!-- COMENTARIOS -->
+                        <section class="m-10">
+                            <p class="pt-2 fw-bold">Espacio de comentarios</p>
+                                <div class="mb-3">
+                                    <textarea class="form-control mb-2" rows="3" placeholder="Comentarios, feedback, quejas, críticas constructivas. ¡Todo es bienvenido para el equipo de Webly!"></textarea>
+                                    <button type="submit" class="btn btn-success">Enviar</button>
+                            </div>
+                        </section>
+
+                        <!-- REDES SOCIALES -->
+                        <section class="mb-3 d-flex justify-content-center flex-wrap">
+                            <a class="btn btn-outline btn-floating m-1" href="https://www.facebook.com/profile.php?id=61574786935877" target="_blank"><img src="../multimedia/3D/facebook.png" class="socialMediaLogo_footer"> Webly El Salvador </a>
+                            <a class="btn btn-outline btn-floating m-1" href="https://www.instagram.com/webly_sv?utm_source=ig_web_button_share_sheet&igsh=MXRkNnh1MnEzbm1ieA==" target="_blank"><img src="../multimedia/3D/instagram.png" class="socialMediaLogo_footer"> webly_sv </a>
+                            <a class="btn btn-outline btn-floating m-1" href="https://wa.me/message/5SS26MIVPHL7G1" target="_blank"><img src="../multimedia/3D/whatsapp.png" class="socialMediaLogo_footer"> (+503) 6839-9381</a>
+                            <a class="btn btn-outline btn-floating m-1" href="mailto:weblysv@gmail.com" target="_blank"><img src="../multimedia/3D/correo.png" class="socialMediaLogo_footer"> weblysv@gmail.com</a>
+                        </section>
+                    </div>
+                    </div> <!-- cierre del row b1-->
+
+                    <!-- el copyright abajo centrado -->
+                    <div class="text-center mt-4" style="font-size: 14px; background-color: rgb(201, 201, 201); padding: 10px;">
+                    © Proyecto Final DPW _ 2025 Webly. Todos los derechos reservados.
+                    </div>
+                </div> <!-- cierre del container -->
+                </footer>
+            </div>
+        </div>
+    </div>  <!--Fin del Contenedor del footer-->
+</body>
+</html>

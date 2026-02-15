@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(to right, #84c69f, #5ab982);
+  margin: 0;
+  padding: 0;
+}
+
+#LogoNavbar {
+  height: 85px;
+  width: auto;
+}
+
+#SloganNavbar{
+  height: 50px; 
+  width: auto;
+}
+
+.custom-navbar {
+  border-radius: 12px;
+}
+
+#botonNavbar:hover{
+  background-color: #ecebeb; 
+  color: rgb(35, 39, 38);             
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+  transform: translateY(-3px); 
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+.custom-footer {
+  border-radius: 12px;
+  align-items: center;
+}
+
+.socialMediaLogo_footer {
+  height: 24px;
+  width: auto;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+textarea.form-control {
+  border-radius: 8px;
+  resize: none;
+}
+
+
+

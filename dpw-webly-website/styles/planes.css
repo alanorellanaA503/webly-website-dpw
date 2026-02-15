@@ -1,0 +1,44 @@
+#cardPlanBasico:hover {
+  background-color: #aad9d4; 
+  color: white;             
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-5px); 
+  transition: all 0.3s ease;
+  border-radius: 5%;
+}
+
+#cardPlanProf:hover {
+  background-color: #5db56a; 
+  color: white;             
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-5px); 
+  transition: all 0.3s ease;
+  border-radius: 5%;
+}
+
+#cardPlanTienda:hover {
+  background-color: #49af54; 
+  color: white;             
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-5px); 
+  transition: all 0.3s ease;
+  border-radius: 5%;
+}
+
+#cardPlanMant:hover {
+  background-color: #004c3f; 
+  color: white;             
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-5px); 
+  transition: all 0.3s ease;
+  border-radius: 5%;
+}
+
+.cardTestimonio:hover {
+  background-color: #5aa065; 
+  color: white;             
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-3px); 
+  transition: all 0.3s ease;
+  border-radius: 5%;
+}
