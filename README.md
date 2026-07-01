@@ -1,7 +1,7 @@
 # Sitio Web Webly – Proyecto Final
 
 Este proyecto es el trabajo final del módulo **Diseño de Páginas Web**, desarrollado durante mi primer ciclo de la **Técnica de Ingeniería de Desarrollo de Software**
-en **ITCA-FEPADE** sede central Santa Tecla(2024).
+en **ITCA-FEPADE** sede central Santa Tecla(2025).
 
 ## Descripción del Proyecto
 Sitio web informativo y responsivo creado para *Webly*, una microempresa dedicada al diseño web y servicios digitales. El proyecto prioriza la estructura, el diseño responsivo y la experiencia de usuario.
